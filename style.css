@@ -243,7 +243,7 @@ a:hover {
 	letter-spacing: 1px;
 	letter-spacing: -1px;
 	text-align: left;
-	text-transform: uppercase;
+	text-transform: none;
 	font-size: 26px;
 	font-weight: normal;
 	color: #148DFB;

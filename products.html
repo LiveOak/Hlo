@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Howard Live Oak - Products</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Arvo" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript">
+<!--
+var this_weekday_name_array = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")	//predefine weekday names
+var this_month_name_array = new Array("January","February","March","April","May","June","July","August","September","October","November","December")	//predefine month names
+
+var this_date_timestamp=new Date()	//get current day-time stamp
+
+var this_weekday = this_date_timestamp.getDay()	//extract weekday
+var this_date = this_date_timestamp.getDate()	//extract day of month
+var this_month = this_date_timestamp.getMonth()	//extract month
+var this_year = this_date_timestamp.getYear()	//extract year
+
+if (this_year < 1000)
+	this_year+= 1900;	//fix Y2K problem
+if (this_year==101)
+	this_year=2001;		//fix Netscape browsers - it displays the year as being the year 101!
+
+var this_date_string = this_weekday_name_array[this_weekday] + ", " + this_month_name_array[this_month] + " " + this_date + ", " + this_year	//concat long date string
+//-->
+</script>
+<style type="text/css">
+.auto-style1 {
+	font-size: 26px;
+	color: #148DFB;
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="wrapper2">
+		<div id="header" class="container">
+			<div id="logo" style="width: 458px">
+				<h1>Howard Live Oak</h1>
+				<p>&nbsp;</p>
+			</div>
+			<div id="menu" class="auto-style1" style="width: 401px">
+				<ul>
+					<li class="current_page_item"><a href="index.html">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="about.html">About </a></li>
+					<li><a href="products.html">Contact </a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- end #header -->
+		<div id="page">
+			<div class="post">
+				<h2 class="title" style="font-size: 26px; text-transform: none">
+						Consulting for Statistical Analysis and Software Development
+				</h2>
+				<div class="entry">
+					<p>Most services and software produced by Howard Live Oak 
+					have been develop for private clients. Discussing these 
+					products could reveal proprietary information, or provide 
+					insight into systems managing protected health information 
+					(PHI).&nbsp; However the following products are available to the public.</p>
+				</div>				 
+			</div>
+
+			<div class="post">
+				<h2 class="title"><a href="#">NlsyLinks </a></h2>
+			    <div style="clear: both;">&nbsp;</div>
+				<div class="entry">
+					<p>Is an R package developed for the NIH grant "<a href="http://taggs.hhs.gov/AwardDetail.cfm?s_Award_Num=R01HD065865&amp;n_Prog_Office_Code=50">NLSY Kinship Links: Reliable and Valid Sibling Identification</a>" 
+					(<a href="http://www.vanderbilt.edu/psychological_sciences/bio/joe-rodgers">Joe</a>
+					<a href="http://www.ou.edu/cas/psychology/people/faculty.html">Rodgers</a>, PI).  It provides utilities and kinship information for Behavior Genetics and Developmental research using the <a href="http://www.bls.gov/nls/http://www.bls.gov/nls/">NLSY</a> (National Longitudinal Survey of Youth).  The release version and 
+					documentation is available on
+					<a href="http://cran.r-project.org/web/packages/NlsyLinks/">
+					CRAN</a>.&nbsp; The development version is available on
+					<a href="https://r-forge.r-project.org/projects/nlsylinks/">
+					R-Forge</a>.</p>
+				</div>
+			</div>
+			<div class="post">
+				<h2 class="title"><a href="#">Dx Balance Beam</a></h2>
+			    <div style="clear: both;">&nbsp;</div>
+				<div class="entry">
+					<p>Is a product developed for
+					<a href="http://www.fammed.ouhsc.edu/research/robhamm/index.htm">
+					Rob Hamm, PhD</a> in the 
+					<a href="http://www.oumedicine.com/familymedicine">Family and Preventative Medicine</a> 
+					department in the University of Oklahoma Health Sciences Center.&nbsp; 
+					It graphically demonstrates a simplified process of 
+					differential diagnoses.&nbsp; Each diagnosis is represented 
+					by a side of a balance beam. As a clinician specifies the evidence (eg, lab tests 
+					or patient demographics), the diagram updates to 
+					reflect the new center of gravity.&nbsp; Currently it is 
+					implemented as a
+					<a href="http://msdn.microsoft.com/en-us/library/ms754130.aspx">
+					Windows Presentation Foundation</a> .NET GUI, deployed with
+					<a href="http://msdn.microsoft.com/en-us/library/t71a733d.aspx">
+					ClickOnce</a> technology.&nbsp; Only Windows is currently 
+					supported, but we hope to receive additional grant funding 
+					to bring it on other platforms.&nbsp; The
+					<a href="http://www.fammed.ouhsc.edu/balancebeam/deployment/publish.htm">
+					primary download location</a> is hosted by Family Medicine; 
+					in case that is temporarily down, please use this
+					<a href="http://howardliveoak.com/DxBalanceBeam/Deployment/">
+					backup location</a>.</p>
+				</div>
+			</div>
+			<div class="post">
+				<h2 class="title"><a href="#">Univariate 
+				Sampling Bootstrap</a></h2>
+			    <div style="clear: both;">&nbsp;</div>
+				<div class="entry">
+					<p>Is a .NET program that accompanied the 2007
+					<a href="http://psycnet.apa.org/journals/met/12/4/414/">
+					Psychological Methods article</a>, "Bootstrapping to test for nonzero population correlation coefficients using univariate sampling".&nbsp; 
+					The program can be downloaded
+					<a href="http://howardliveoak.com/bootstrap/apps/publish.htm">
+					here</a> and instructions can be found
+					<a href="http://howardliveoak.com/UnivariateSamplingInstructions.pdf">
+					here</a>.</p>
+				</div>
+			</div>
+			<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #page -->
+	</div>
+</div>
+<div id="footer-content">
+	<div id="footer">
+		<p>Copyright &copy;Howard Live Oak, LLC. All rights reserved. </p>	</div>
+</div>
+<!-- end #footer -->
+</body>
+</html>
